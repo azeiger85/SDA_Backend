@@ -23,7 +23,7 @@ def index(request):
 
 
 def movies(request):
-
+#This is the view for the movies
     return render(
     request, template_name='movies.html',
     context={'movies': Movie.objects.all()}
