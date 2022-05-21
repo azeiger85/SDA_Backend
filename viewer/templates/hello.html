@@ -1,0 +1,14 @@
+{% extends 'base.html'%}
+
+{%block content_1%}
+    <h1>Welcome to Hollywood</h1>
+    {% for adj in adjectives %}
+        {% if adj != 'cruel' %}
+        <p> This is a {{ adj }} world...</p>
+    {% endif %}
+    {% endfor %}
+{%endblock%}
+
+{%block content%}
+         <h1>WELCOM to the next div container</h1>
+{%endblock%}

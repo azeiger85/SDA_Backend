@@ -1,0 +1,66 @@
+[
+  {
+    "model": "viewer.genre",
+    "pk": 1,
+    "fields": {
+      "name": "Action"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 2,
+    "fields": {
+      "name": "Horro"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 3,
+    "fields": {
+      "name": "Thriller"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 5,
+    "fields": {
+      "name": "Romance"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 1,
+    "fields": {
+      "title": "Iron Man",
+      "genre": 1,
+      "rating": 10,
+      "released": "2019-04-08",
+      "description": "Gool Action movie",
+      "created": "2022-05-15T08:36:57.496Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 2,
+    "fields": {
+      "title": "Titanic",
+      "genre": 5,
+      "rating": 10,
+      "released": "2021-01-18",
+      "description": "Boat frek",
+      "created": "2022-05-15T08:44:08.892Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 3,
+    "fields": {
+      "title": "Rango",
+      "genre": 5,
+      "rating": 10,
+      "released": "2002-01-18",
+      "description": "good movie",
+      "created": "2022-05-15T08:44:08.892Z"
+    }
+  }
+]
